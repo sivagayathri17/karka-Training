@@ -1,0 +1,5 @@
+height=input("what is your height ?:")
+age=input("what is your age ?:")
+weight=input("how much your weight?:")
+# print(name,"\n",age,"\n", weight)
+print(f"so,your{age} old,{weight} weight and heave {height} heave")
