@@ -1,3 +1,4 @@
 print("5+2")
 print(5+2)
-print(hello,shiva)
+print("hello,shiva")
+print("5"+"2")

@@ -1,0 +1,23 @@
+# file=open("/home/siva/karka.txt","r")
+# print(file.read())
+# for line in file:
+#     print(line)
+# data=file.read()
+# print(data)
+file1=open("/home/siva/karka.txt","w")
+file1.write("I am shiva \n")
+file1.write("she is good girl\n")
+file1.close()
+file1=open("/home/siva/karka.txt","r")
+
+# print(file1.read())
+# print(file1.read(8))
+# print(file1.read())
+file2=open("/home/siva/karka.txt","a")
+file2.write("I am shiva \n")
+file2.write("I am 20 years old")
+file2.close()
+file2=open("/home/siva/karka.txt","r")
+print(file2.read())
+for line in file1:
+    print(line.split())

@@ -1,5 +1,5 @@
-A=int(input("Enter the num :"))
-if A%2==0:
-    print(A,"The number is odd")
+num=int(input("Enter the num :"))
+if num%2==0:
+    print(num,"The number is even")
 else:
-    print(A,"The number is even")     
+    print(num,"The number is odd")     
