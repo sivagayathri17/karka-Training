@@ -1,11 +1,11 @@
 abs_num=abs(22/7)
-print(abs_num)
+print("absolute number:",abs_num)
 
 bin_num=bin(27)
-print(bin_num)
+print("binary number :",bin_num)
 
 dic_val=dict(name="shiva",age=20,DOB="26.04.2003")
-print(dic_val)
+print("dictonary value :",dic_val)
 
 eval_num='print(38)'
 eval(eval_num)
@@ -22,25 +22,25 @@ print(name)
 
 fruits=("apple","orange","banana")
 len_fruits=len(fruits)
-print(len_fruits)
+print("length of fruits :",len_fruits)
 
 max_val=max(20,100)
-print(max_val)
+print("max number :",max_val)
 min_val=min(20,100)
-print(min_val)
+print("min number :",min_val)
 
-print("My name is shiva")
+print("name :My name is shiva")
 
-slice_name=("shiva")
-print(slice_name[slice(2)])
+slice_name="shiva"
+print("slice the name",slice_name[slice(2)])
 
 sum_num=(10,20,30,40,50)
 a=sum(sum_num)
-print(a)
+print("total number :",a)
 
 name="shiva"
 age=20
 weight=45.5
-print(type(name))
-print(type(age))
-print(type(weight))
+print("type of the name :",type(name))
+print("type of the age :",type(age))
+print("type of the weight :",type(weight))
