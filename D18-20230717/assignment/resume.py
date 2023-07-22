@@ -61,9 +61,10 @@ my_resume={"Name" :"Siva Gayathri.V",
 # for pin in pins :
 #        if pins["pincode"]==pins["pincode"]:
 #         print(pins["pincode"])
-add=my_resume["Personal_Details"]["Address"]
-if add==add:
-     print(add["pincode"])
+adds=my_resume["Personal_Details"]["Address"]
+for add in adds:
+ if add=="pincode":
+     print(adds["pincode"])
 
     
  

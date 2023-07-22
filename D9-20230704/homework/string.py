@@ -3,7 +3,7 @@ name_list1=["Shiva","Gayathri","Ram","Sree"]
 name_list2=["my name is shiva"]
 for name in name_list1:
   # print(name.capitalize())
-  # print(name.casefold())
+  #  print(name.casefold())
   # print(name.center(10))
   # print(name.count("ram"))
   # print(name.encode()) 
@@ -14,11 +14,11 @@ for name in name_list1:
   # print(name.lower())
   # print(name.upper())
   # print(name.join("shiva","gayathri"))
-  print(name.replace("shiva","ram"))
-  print(name.title())
-  print('$'.join(name))
+  # print(name.replace("shiva","ram"))
+  # print(name.title())
+  # print('$'.join(name))
 
-para="""
+ para="""
 hello,
 I am shiva gauu
 """

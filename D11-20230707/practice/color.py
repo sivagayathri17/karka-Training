@@ -1,10 +1,10 @@
 color_list=["red","black","white","blue","bink"]
-# color_list.append("viloet")
-# print(color_list)
+color_list.append("viloet")
+print(color_list)
 color_list.clear
 print(color_list)
 
-name = "Nathan"
+name = "shiva"
 age = 20
 print("my name is", name)
 print("my name is " + name + str(age))

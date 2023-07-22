@@ -58,7 +58,7 @@ def batting(crickets):
       for one in i["batting score"]:
        if top_batting_score <one:
          top_batting_score=one
-         print(f"player name :",crickets["name"], ". Top batting score :",{top_batting_score})
+         print(f"player name :",{crickets["name"]}, ". Top batting score :",{top_batting_score})
 batting(crickets)           
 
 
