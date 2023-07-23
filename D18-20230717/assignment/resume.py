@@ -38,29 +38,25 @@ my_resume={"Name" :"Siva Gayathri.V",
                                               "pincode":160091}}, 
             }
 
-# education=my_resume["Educational_Qualification"]
-# for Educational_Qualification in education:
-#     print(Educational_Qualification["instution"])
-#     print(Educational_Qualification["passed"])
+education=my_resume["Educational_Qualification"]
+for Educational_Qualification in education:
+    print(Educational_Qualification["instution"])
+    print(Educational_Qualification["passed"])
 
 
 
-# add=my_resume["Personal_Details"]["Address"]
-# for  personal_Details in add:
-#    print( add[personal_Details])
+add=my_resume["Personal_Details"]["Address"]
+for  personal_Details in add:
+   print( add[personal_Details])
 
-# lans=my_resume["Personal_Details"]["Languages Known"]
-# print(lans[1])
-# for  lan in lans:
-    #  print(lan)   
+lans=my_resume["Personal_Details"]["Languages Known"]
+print(lans[1])
+for  lan in lans:
+     print(lan)   
 
-# hard=my_resume["Hard_Skills"] 
-# print(hard[1]) 
+hard=my_resume["Hard_Skills"] 
+print(hard[1]) 
 
-# pins=(my_resume["Personal_Details"]["Address"])
-# for pin in pins :
-#        if pins["pincode"]==pins["pincode"]:
-#         print(pins["pincode"])
 adds=my_resume["Personal_Details"]["Address"]
 for add in adds:
  if add=="pincode":
