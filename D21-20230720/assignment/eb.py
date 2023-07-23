@@ -40,6 +40,5 @@ print(str_eb_bills)
 #   for eb_bill in eb_bills:
 #    str_eb=f"month:{eb_bill['month']}\n units_consumed: {eb_bill['units_consumed']} \nbill_amount:{eb_bill['bill_amount']}\n"
 #    file.write(str_eb)
-with open("/home/siva/karka.txt","w") as file:
-   
+with open("/home/siva/karka.txt","w") as file:  
    file.write(str_eb_bills)
