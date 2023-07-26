@@ -14,8 +14,8 @@ rates=[{"month":"jan",
 data=[]
 
 for rate in rates:
-    g_rate=(rate["g_rate"])
-    lists=(rate["j_lists"])
+    g_rate=rate["g_rate"]
+    lists=rate["j_lists"]
     month=rate["month"]
     
     dic={}
@@ -24,7 +24,7 @@ for rate in rates:
     for list in lists:
         m_lists=(list["making_cost"])
         # print(m_lists)
-        name=(list["name"])
+        name=list["name"]     
         
         cost=g_rate*(m_lists/100)
         add_cost=cost+g_rate

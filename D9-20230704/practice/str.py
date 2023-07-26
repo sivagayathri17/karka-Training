@@ -1,8 +1,8 @@
 name_list=["shiva","salini","vinusha","vijay","abi","peru"]
-print(name_list)
+# print(name_list)
 
 name_set={"shiva","salini","vinusha","vijay","abi","peru"}
-print(name_set)
+# print(name_set)
 
 my_name=name_list[0]
 print(my_name)
