@@ -19,11 +19,13 @@ educations=[{"study":"b.sc",
                          }]
                          }]
 for education in educations:
-    print(education)
+    # print(education)
     marks=education["sem_mark"]
-    print(marks)
+    # print(marks)
     for subject in marks:
-        print(subject)
+        f_sem=(subject["sem"])
+        print(f_sem)
+
         
 
     
