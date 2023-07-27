@@ -3,9 +3,9 @@ for num in range(1,101):
     three=num%3
     five=num%5
 
-    if three==0 :
-        print("chikku")
+    if three==0 and five==0:
+        print("chikku bukku")
     elif five==0:
-        print("bakku")  
-    elif three==0 and five==0:
-        print("chikku bakku")
+        print("bukku")  
+    elif three==0 :
+        print("chikku")
