@@ -5,15 +5,20 @@
 #    re_pali.append(pali[index])
 #    index-=1 
 # print(re_pali)
-# if pali==re_pali:
+# if pali==str(re_pali):
 #     print("yes, this word is palindrome")
 # else:
-#      print("no, this word is palindrome")
+#      print("this word is not palindrome")
 
 
-str1="shiva"
-index=-1
-while index>=-len(str1[index]):
-    print(str1)
-    index+=-1
+
+name=input("enter the pali : ")
+re_name=name[::-1]
+print(re_name)
+if name==re_name:
+    print("yes,pali")
+else:
+    print("no,pali")    
+    
+
 
