@@ -10,7 +10,3 @@ for i in range(len(days)):
     week={"day":days[i] , "total days in month:":x}
     list.append(week)
 print(list)    
-
-
-
-      
