@@ -20,7 +20,7 @@ for i in range(len(num_list)):
         if a>b: 
             max=a
             diff=a-b   
-            max=diff         
+            # max=diff         
 print(max)
 
 
