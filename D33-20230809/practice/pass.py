@@ -1,6 +1,5 @@
 password=input("enter the password : ")
 len_pass=len(password)
-a=password.isalnum()
 def passw(len_pass):
     if len_pass<6:
         return("week")
@@ -11,14 +10,22 @@ def passw(len_pass):
     elif len_pass>15:
         return("very strong")
     
-output=passw (len_pass)
-   
-print(output)
+upper=False
+lower=False
+digit=False
 for passwo in password:
-        if passwo.isupper or passwo.islower or passwo.isdigit:
-           passw(len_pass)
+        if passwo.isupper():
+            upper=True
+        elif passwo.islower():
+            lower=True
+        elif passwo.isdigit():
+           digit=True
+if upper==True and lower==True and digit==True:
+    output=passw (len_pass)
+    print(output)
 else:
-     print("try anothor password")             
+     print("try anothor password")   
+               
 
              
 
