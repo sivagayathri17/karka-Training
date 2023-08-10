@@ -19,15 +19,36 @@
 #     num[change]= num[change]+1
 #     print(num)
 
-
-digits=[2,3,4,5,6]
-# digits=[9]
-num=""
-empty=[]
-for i in digits:
-    num=num+str(i)
-    a=int(num)+1
+num=[1,2,3,4,5]
+em=[]
+str_num=""
+for i in num:
+    str_num=str_num+str(i)
+    a=int(str_num)+1
     b=str(a)
 for j in b:
-    empty.append(int(j))
-print(empty)
+    em.append(int(j))
+print(em)    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
