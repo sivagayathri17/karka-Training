@@ -36,13 +36,19 @@
 # print(name5)
  
 
-list=[3,2,2,3]
-add_list=[]
-r_val=int(input("remove value:"))
+list=[1,2,2,3]
+dic={}
+for i in list:
+    if i not in dic:
+     dic[i]=1
+    else:
+     dic[i]=dic[i]+1  
+  
+for j in dic:
+  if dic[j]==1:
+   print(j)  
 
-for num in list:
-    if num!=r_val:
-     add_list+=[num]
-add_list+=["*"]
-print(add_list)
+
+
+
     
