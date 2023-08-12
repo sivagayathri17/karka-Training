@@ -1,7 +1,7 @@
 s="abcabcbb"
-a=""
-b=""
-c=""
+em=""
 for i in s:
-    if i=="a":
-        a.append(i)
+    if i not in em:
+        em=em+i
+print(f"the ans is {em},with the length{len(em)}")
+    
