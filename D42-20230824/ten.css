@@ -1,0 +1,47 @@
+.logo{
+    border: 1px solid;
+    padding:10px 0px;
+    text-align: center;
+}
+.links{
+    border: 1px solid;
+    padding:10px 0px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.feature{
+    border: 1px solid;
+    padding:10px 0px;
+    text-align: center;
+}
+.sec{
+    border: 1px solid;
+    padding:10px 0px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.sec1{
+    border: 1px solid;
+    padding:74px 125px;
+    margin: 5px 20px;
+    display: inline-block;
+}
+.sec2{
+    border: 1px solid;
+    padding:74px 125px;
+    margin: 5px 20px;
+    display: inline-block;
+}
+.sec3{
+    border: 1px solid;
+    padding:74px 125px;
+    margin: 5px 20px;
+    display: inline-block;
+}
+.copy{
+    border: 1px solid;
+    padding:10px 0px;
+    text-align: center;
+
+}
+
