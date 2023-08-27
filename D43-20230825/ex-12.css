@@ -1,0 +1,41 @@
+header{
+    border: 1px solid;
+    padding:10px 0px;
+    text-align: center;
+}
+.link{
+    border: 1px solid;
+    padding:10px 0px;
+    text-align: center;
+    margin: 5px 0px;
+}
+section{
+    border: 1px solid;
+    padding:10px 0px;
+    width: 85%;
+    display: inline-block;
+}
+section h2{
+    text-align: center;
+}
+section p{
+    text-align: justify;
+    margin: 20px;
+}
+section h3{
+    margin: 10px;
+    text-decoration:underline;
+}
+aside{
+    border: 1px solid;
+    padding: 20px 46px 149px 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+footer{
+    border: 1px solid;
+    padding:10px 0px;
+    text-align: center;
+    margin: 5px 0px;
+}
+

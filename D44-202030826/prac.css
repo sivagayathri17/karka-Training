@@ -1,0 +1,23 @@
+.out{
+    border: 1px solid;
+   
+}
+header{
+    font-family: arial;
+}
+.hole{
+    border: 1px solid;
+}
+.box1{
+    border: 1px solid;
+    margin:1px;
+    width: 10%;
+    padding:0px 0px 0px 0px;
+    display: inline-block;
+}
+.def{
+    border: 1px solid;
+    width: 89%;
+    vertical-align: top;
+    display: inline-block;
+}
