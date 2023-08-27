@@ -1,1 +1,1 @@
-# karka-Training
+my self learning
